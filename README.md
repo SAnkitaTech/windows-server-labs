@@ -2,7 +2,7 @@
 
 **Ankita Srivastava | Windows Server • Active Directory • Azure**
 
-This repository documents my hands-on Windows Server administration practice. The current labs follow one environment from Azure infrastructure and Windows Server VM deployment through Active Directory Domain Services installation and promotion of the first domain controller.
+This repository documents my hands-on Windows Server administration practice. The current labs follow one environment from Azure infrastructure and Windows Server VM deployment through domain-controller promotion, OU organization, and basic Group Policy.
 
 ## Current lab environment
 
@@ -30,6 +30,11 @@ Provision a Windows Server 2025 virtual machine in Azure, including the resource
 Prepare the Windows Server VM, install Active Directory Domain Services, create the `ankita.com` forest, and promote `AnkitaDC1` to the first domain controller with DNS and Global Catalog.
 
 [Open the lab](02-active-directory-domain-controller/README.md)
+
+### 03 — Active Directory OUs and Basic Group Policy
+Organize users and computers into OUs, pre-stage computer accounts, and configure Control Panel and removable storage policies.
+
+[Open the lab](03-active-directory-ou-and-group-policy/README.md)
 
 ## Skills demonstrated so far
 
