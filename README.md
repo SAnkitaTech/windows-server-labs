@@ -4,7 +4,7 @@
 
 This repository documents my hands-on Windows Server administration practice. The current labs follow one environment from Azure infrastructure and Windows Server VM deployment through Active Directory Domain Services installation and promotion of the first domain controller.
 
-The screenshots in this repository are original lab captures and are kept unchanged. The written documentation is aligned to the configuration shown in those screenshots.
+I documented my lab steps and configuration with screenshots from my environment.
 
 ## Current lab environment
 
