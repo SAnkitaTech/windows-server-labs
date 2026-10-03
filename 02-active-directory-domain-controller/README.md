@@ -24,8 +24,6 @@ Install Active Directory Domain Services on the Azure-hosted Windows Server 2025
 | AD DS log path | `C:\\Windows\\NTDS` |
 | SYSVOL path | `C:\\Windows\\SYSVOL` |
 
-> The screenshots below are original lab captures and are intentionally kept unchanged. The notes are aligned to what the screenshots actually show.
-
 ## 1. Verify the server before promotion
 
 Before installing AD DS, the Windows computer name was `AnkitaDC1` and the server was still in the `WORKGROUP` workgroup. Local Users and Groups also shows the local administrator account created for the VM.
@@ -116,6 +114,6 @@ After promotion, Server Manager shows **AD DS** and **DNS** as installed server 
 - NTDS database/log locations and SYSVOL location
 - Server Manager verification after promotion
 
-## Scope note
+## Documentation coverage
 
-The supplied screenshots do not show the DSRM-password page, prerequisite-check results, command-line health checks, FSMO verification, or DNS record verification. Those items are therefore not presented here as completed evidence. They can be added later when captured in the lab.
+I documented the AD DS installation, new-forest configuration, promotion settings, and Server Manager view after promotion. This walkthrough does not include captures of the DSRM-password page or prerequisite-check results, or outputs from command-line health checks, FSMO verification, and DNS record verification.
