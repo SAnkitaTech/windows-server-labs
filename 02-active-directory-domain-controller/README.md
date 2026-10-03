@@ -114,6 +114,3 @@ After promotion, Server Manager shows **AD DS** and **DNS** as installed server 
 - NTDS database/log locations and SYSVOL location
 - Server Manager verification after promotion
 
-## Documentation coverage
-
-I documented the AD DS installation, new-forest configuration, promotion settings, and Server Manager view after promotion. This walkthrough does not include captures of the DSRM-password page or prerequisite-check results, or outputs from command-line health checks, FSMO verification, and DNS record verification.
