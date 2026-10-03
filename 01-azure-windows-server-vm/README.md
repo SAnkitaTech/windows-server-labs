@@ -24,8 +24,6 @@ Deploy a Windows Server 2025 virtual machine in Microsoft Azure and document the
 | Public IP | `AnkitaDC1-ip` |
 | NIC network security group | Basic |
 
-> The screenshots below are original lab captures and are intentionally kept unchanged. The notes are written to match the configuration visible in the screenshots.
-
 ## 1. Create the virtual network
 
 I created the Azure virtual network `myvnet` inside the `PS-Ankita` resource group. The deployment screen shows the virtual network resource being created successfully.
@@ -49,7 +47,7 @@ On the **Networking** tab, I connected the VM to:
 - Public IP: `AnkitaDC1-ip`
 - NIC network security group: Basic
 
-The screenshot also shows **Allow selected ports** enabled. The specific selected port is not visible in the supplied screenshot, so I do not document a port number here.
+I enabled **Allow selected ports**. My networking capture does not display the selected port number.
 
 ![Azure VM networking](screenshots/03-vm-networking.png)
 
