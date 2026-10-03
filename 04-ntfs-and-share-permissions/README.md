@@ -191,3 +191,7 @@ Restoring the standard Modify rights and scope returns the entry to Modify.
 - [Microsoft: File security and access rights](https://learn.microsoft.com/en-us/windows/win32/fileio/file-security-and-access-rights)
 - [Microsoft: Order of ACEs in a DACL](https://learn.microsoft.com/en-us/windows/win32/secauthz/order-of-aces-in-a-dacl)
 - [Microsoft: ReFS overview](https://learn.microsoft.com/en-us/windows-server/storage/refs/refs-overview)
+
+## Copyright
+
+Copyright 2026 Ankita Srivastava. Original notes and lab work. Reuse or republication requires permission. Third-party material remains subject to its respective owners' rights.
