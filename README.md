@@ -2,7 +2,7 @@
 
 **Ankita Srivastava | Windows Server • Active Directory • Azure**
 
-This repository documents my hands-on Windows Server administration practice. The current labs follow one environment from Azure infrastructure and Windows Server VM deployment through domain-controller promotion, OU organization, and basic Group Policy.
+This repository documents my hands-on Windows Server administration practice. The current labs follow one environment from Azure infrastructure and Windows Server VM deployment through domain-controller promotion, OU organization, basic Group Policy, and shared-folder permissions.
 
 ## Current lab environment
 
@@ -36,9 +36,15 @@ Organize users and computers into OUs, pre-stage computer accounts, and configur
 
 [Open the lab](03-active-directory-ou-and-group-policy/README.md)
 
+### 04 — NTFS and Share Permissions
+Configure a shared folder, manage IT Team access, convert permission inheritance, and review Effective Access and advanced NTFS permissions.
+
+[Open the lab](04-ntfs-and-share-permissions/README.md)
+
 ## Skills demonstrated so far
 
 - Azure resource groups, virtual networks, subnets, and Windows Server VM deployment
+- SMB shares, NTFS permissions, inheritance, and Effective Access
 - Windows Server 2025 administration
 - Server Manager and Add Roles and Features
 - Active Directory Domain Services
