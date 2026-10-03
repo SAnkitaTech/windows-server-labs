@@ -47,7 +47,7 @@ On the **Networking** tab, I connected the VM to:
 - Public IP: `AnkitaDC1-ip`
 - NIC network security group: Basic
 
-I enabled **Allow selected ports**. My networking capture does not display the selected port number.
+I enabled **Allow selected ports**.
 
 ![Azure VM networking](screenshots/03-vm-networking.png)
 
