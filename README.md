@@ -41,10 +41,16 @@ Configure a shared folder, manage IT Team access, convert permission inheritance
 
 [Open the lab](04-ntfs-and-share-permissions/README.md)
 
+### 05 — Group Policy Administration
+Configure and verify policies in the Windows Server lab.
+
+[Windows Defender Firewall: Domain Profile](05-group-policy/windows-defender-firewall/README.md)
+
 ## Skills demonstrated so far
 
 - Azure resource groups, virtual networks, subnets, and Windows Server VM deployment
 - SMB shares, NTFS permissions, inheritance, and Effective Access
+- Group Policy creation, domain linking, and Windows Defender Firewall policy verification
 - Windows Server 2025 administration
 - Server Manager and Add Roles and Features
 - Active Directory Domain Services
