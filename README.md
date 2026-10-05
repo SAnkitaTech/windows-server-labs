@@ -42,9 +42,9 @@ Configure a shared folder, manage IT Team access, convert permission inheritance
 [Open the lab](04-ntfs-and-share-permissions/README.md)
 
 ### 05 — Group Policy Administration
-Configure and verify policies in the Windows Server lab.
+Study Group Policy fundamentals and preferences, then configure and verify policies in the Windows Server lab.
 
-[Windows Defender Firewall: Domain Profile](05-group-policy/windows-defender-firewall/README.md)
+[Open Group Policy notes and labs](05-group-policy/README.md)
 
 ## Skills demonstrated so far
 
