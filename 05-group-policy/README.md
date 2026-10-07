@@ -9,4 +9,6 @@ My Group Policy study notes and Windows Server labs for **ankita.com**.
 3. [Group Policy Preferences](preferences/README.md) — policies versus preferences, refresh behavior, and item-level targeting.
 4. [Windows Defender Firewall Lab](windows-defender-firewall/README.md) — configure and verify the Domain profile firewall policy.
 
+5. [Folder Redirection Lab](folder-redirection/README.md) — redirect Documents for HR users and verify the network location and file access.
+
 Specific policy labs are documented separately for easy revision.
