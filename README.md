@@ -2,7 +2,7 @@
 
 **Ankita Srivastava | Windows Server • Active Directory • Azure**
 
-This repository documents my hands-on Windows Server administration practice. The current labs follow one environment from Azure infrastructure and Windows Server VM deployment through domain-controller promotion, OU organization, basic Group Policy, and shared-folder permissions.
+This repository documents my hands-on Windows Server administration practice. The labs follow one environment from Azure infrastructure and Windows Server VM deployment through Active Directory, Group Policy, file permissions, and FSMO role administration.
 
 ## Current lab environment
 
@@ -11,7 +11,7 @@ This repository documents my hands-on Windows Server administration practice. Th
 | Azure resource group | `PS-Ankita` |
 | Azure virtual network | `myvnet` |
 | Subnet | `snet-centralindia-2` — `10.0.1.0/24` |
-| Windows Server VM | `AnkitaDC1` |
+| Domain controllers | `AnkitaDC1` — `10.0.1.4`; `Ankita-DC2` — `10.0.2.4` |
 | Region | Central India |
 | VM image | Windows Server 2025 Datacenter: Azure Edition - x64 Gen2 |
 | VM size | `Standard_B2s_v2` — 2 vCPUs, 8 GiB RAM |
@@ -46,11 +46,18 @@ Study Group Policy fundamentals and preferences, then configure and verify polic
 
 [Open Group Policy notes and labs](05-group-policy/README.md)
 
+### 06 — FSMO Schema Master Transfer
+Review the forest-wide FSMO roles and transfer the Schema Master from `AnkitaDC1` to `Ankita-DC2`, including the DNS setting change that resolved the issue in my lab.
+
+[Open the lab](06-fsmo-schema-master-transfer/README.md)
+
 ## Skills demonstrated so far
 
 - Azure resource groups, virtual networks, subnets, and Windows Server VM deployment
 - SMB shares, NTFS permissions, inheritance, and Effective Access
 - Group Policy creation, domain linking, and Windows Defender Firewall policy verification
+- Active Directory FSMO role ownership and Schema Master transfer
+- DNS client configuration and Active Directory replication checks
 - Windows Server 2025 administration
 - Server Manager and Add Roles and Features
 - Active Directory Domain Services
