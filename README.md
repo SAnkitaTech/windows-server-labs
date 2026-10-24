@@ -51,6 +51,16 @@ Review the forest-wide FSMO roles and transfer the Schema Master from `AnkitaDC1
 
 [Open the lab](06-fsmo-schema-master-transfer/README.md)
 
+## Interactive troubleshooting practice
+
+### GPO Detective
+
+Investigate five simulated Group Policy incidents: inspect evidence, choose a targeted repair, refresh policy, review results, and verify the outcome. Practice GPO links, user OU scope, security filtering, link state, and GPO status.
+
+[Play GPO Detective](https://sankitatech.github.io/windows-server-labs/interactive-labs/gpo-detective/) · [Read the simulation guide](interactive-labs/gpo-detective/README.md)
+
+Built with AI assistance as a browser-based learning tool. The incidents and command outputs are simulated; the related hands-on labs remain documented separately.
+
 ## Skills demonstrated so far
 
 - Azure resource groups, virtual networks, subnets, and Windows Server VM deployment
