@@ -53,6 +53,12 @@ Review the forest-wide FSMO roles and transfer the Schema Master from `AnkitaDC1
 
 ## Interactive troubleshooting practice
 
+### Fix the Domain Join
+
+Investigate five simulated domain-join blockers involving DNS, adapter connectivity, domain name accuracy, delegated join permissions, and authentication time. Inspect evidence, repair the fault, check prerequisites, retry the join, restart, and verify membership.
+
+[Play Fix the Domain Join](https://sankitatech.github.io/windows-server-labs/interactive-labs/fix-the-domain-join/) · [Read the simulation guide](interactive-labs/fix-the-domain-join/README.md)
+
 ### GPO Detective
 
 Investigate five simulated Group Policy incidents: inspect evidence, choose a targeted repair, refresh policy, review results, and verify the outcome. Practice GPO links, user OU scope, security filtering, link state, and GPO status.
